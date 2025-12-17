@@ -1,0 +1,45 @@
+{
+    "name": "eth-bridge-project",
+    "version": "1.0.0",
+    "scripts": {
+        "compile": "hardhat compile",
+        "test": "hardhat test",
+        "deploy:sepolia": "hardhat run scripts/deploySepolia.js --network sepolia",
+        "deploy:bsc": "hardhat run scripts/deployBSC.js --network bscTestnet",
+        "deploy:all": "npm run deploy:sepolia && npm run deploy:bsc",
+        "node": "hardhat node",
+        "backend": "cd backend && npm start",
+        "frontend": "cd frontend && npm start"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+        "@nomicfoundation/hardhat-ethers": "^3.0.0",
+        "@nomicfoundation/hardhat-network-helpers": "^1.1.2",
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "@openzeppelin/contracts": "^5.4.0",
+        "@typechain/ethers-v6": "^0.5.1",
+        "@typechain/hardhat": "^9.1.0",
+        "axios": "^1.6.0",
+        "chai": "^4.5.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "ethers": "^6.16.0",
+        "express": "^4.18.0",
+        "hardhat": "^2.19.0",
+        "hardhat-gas-reporter": "^1.0.10",
+        "keccak256": "^1.0.6",
+        "merkletreejs": "^0.3.9",
+        "solidity-coverage": "^0.8.17",
+        "typechain": "^8.3.2",
+        "web3": "^4.0.0"
+    },
+    "description": "",
+    "main": "hardhat.config.js",
+    "directories": {
+        "test": "test"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs"
+}
