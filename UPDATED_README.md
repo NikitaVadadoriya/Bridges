@@ -8,8 +8,8 @@ Your contracts are successfully deployed:
 - **EthLockVault**: `0xe18A36A75A7e0221a46f32893869986A36e8AAB7`
 
 ### BSC Testnet
-- **WrappedEthOnBSC (wETHbT)**: `0xe3dE6AAe0E3cAb8eDCb40c6068506C0B27e9d2F5`
-- **BridgeBSC**: `0x1990c2b849623231D721d27cef4e256C1c3e6b21`
+- **WrappedEthOnBSC (wETHbT)**: `0xD78681f750eA8F71A833b2e0d9d23825B042e630`
+- **BridgeBSC**: `0xEb06d89F859758C607395BE31C16515af1134BE5`
 
 ---
 
